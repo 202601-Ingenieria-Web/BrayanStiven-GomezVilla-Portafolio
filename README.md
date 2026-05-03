@@ -158,7 +158,7 @@ El proyecto debe ser desplegado en Vercel.
 Enlace del despliegue:
 
 ```txt
-<URL_DEL_DESPLIEGUE_EN_VERCEL>
+[<URL_DEL_DESPLIEGUE_EN_VERCEL>](https://brayan-gomez-portafolio.vercel.app/)
 ```
 
 ## Información del autor
@@ -175,7 +175,3 @@ Enlace del despliegue:
 Durante el desarrollo se priorizó una estructura simple, clara y basada en componentes. El proyecto evita una arquitectura innecesariamente compleja, pero mantiene una separación organizada entre datos, tipos, componentes visuales, secciones y layout principal.
 
 También se cuidó la responsividad, la reutilización de componentes, la ortografía de los textos visibles y la documentación interna en las partes del código donde existe lógica relevante, como el carrusel, los modales, el modo oscuro y los paneles laterales móviles.
-
-## Estado del proyecto
-
-Proyecto desarrollado como entrega académica para Ingeniería Web.
