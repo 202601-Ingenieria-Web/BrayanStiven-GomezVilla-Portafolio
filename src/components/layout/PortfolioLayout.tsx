@@ -13,7 +13,7 @@ export function PortfolioLayout({ children }: PortfolioLayoutProps) {
             <div className="mx-auto flex min-h-screen max-w-[1600px]">
                 <LeftSidebar />
 
-                <main className="h-screen flex-1 overflow-y-auto px-5 py-6 md:px-8 lg:px-10 xl:px-12">
+                <main id="portfolio-main-content" className="h-screen flex-1 overflow-y-auto px-5 py-6 md:px-8 lg:px-10 xl:px-12">
                     {children}
                 </main>
 
