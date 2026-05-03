@@ -156,10 +156,7 @@ npm run lint
 El proyecto debe ser desplegado en Vercel.
 
 Enlace del despliegue:
-
-```txt
-[<URL_DEL_DESPLIEGUE_EN_VERCEL>](https://brayan-gomez-portafolio.vercel.app/)
-```
+[![Deploy en Vercel](https://img.shields.io/badge/Deploy-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://brayan-gomez-portafolio.vercel.app/)
 
 ## Información del autor
 
