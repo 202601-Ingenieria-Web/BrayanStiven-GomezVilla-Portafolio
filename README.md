@@ -98,7 +98,7 @@ El proyecto utiliza componentes reutilizables para mantener una estructura clara
 Para ejecutar el proyecto de forma local, primero se debe clonar el repositorio:
 
 ```bash
-git clone <URL_DEL_REPOSITORIO>
+git clone https://github.com/202601-Ingenieria-Web/BrayanStiven-GomezVilla-Portafolio.git
 ```
 
 Luego, ingresar a la carpeta del proyecto:
