@@ -1,36 +1,181 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portafolio profesional - Brayan Stiven Gómez Villa
 
-## Getting Started
+Proyecto evaluativo desarrollado para la asignatura Ingeniería Web. El objetivo principal es construir una hoja de vida interactiva y responsive basada en un diseño de referencia en Figma, utilizando tecnologías modernas del ecosistema frontend.
 
-First, run the development server:
+## Descripción del proyecto
+
+Este proyecto corresponde a un portafolio profesional desarrollado con Next.js, React, TypeScript y Tailwind CSS. La aplicación presenta información personal, datos de contacto, habilidades técnicas, conocimientos, formación académica y proyectos destacados de Brayan Stiven Gómez Villa.
+
+El diseño está inspirado en la estructura propuesta por el docente, pero fue personalizado con una paleta verde, modo oscuro, carrusel de proyectos, modales informativos y paneles laterales adaptados para pantallas móviles.
+
+## Tecnologías utilizadas
+
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Lucide React
+- React Icons
+- Vercel
+
+## Funcionalidades principales
+
+- Menú lateral izquierdo con información personal, contacto, idiomas, lenguajes de programación y habilidades extra.
+- Contenido central con secciones de perfil, conocimientos, educación, portafolio y footer.
+- Menú lateral derecho con accesos a GitHub, LinkedIn, Instagram y botón de modo oscuro.
+- Modal de perfil profesional.
+- Carrusel automático y manual para la sección de proyectos.
+- Modal detallado para cada proyecto del portafolio.
+- Modo claro y modo oscuro.
+- Diseño responsive para diferentes tamaños de pantalla.
+- Paneles laterales móviles que se despliegan mediante gestos desde los bordes izquierdo y derecho de la pantalla.
+- Componentes reutilizables siguiendo una estructura basada en componentes.
+
+## Estructura del proyecto
+
+```txt
+src/
+├── app/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── components/
+│   ├── cards/
+│   │   ├── EducationCard.tsx
+│   │   ├── KnowledgeCard.tsx
+│   │   └── ProjectCard.tsx
+│   │
+│   ├── layout/
+│   │   ├── LeftSidebar.tsx
+│   │   ├── MobileSidebarController.tsx
+│   │   ├── PortfolioLayout.tsx
+│   │   └── RightSidebar.tsx
+│   │
+│   ├── sections/
+│   │   ├── EducationSection.tsx
+│   │   ├── Footer.tsx
+│   │   ├── HeroSection.tsx
+│   │   ├── KnowledgeSection.tsx
+│   │   └── PortfolioSection.tsx
+│   │
+│   └── ui/
+│       ├── Button.tsx
+│       ├── Modal.tsx
+│       ├── ProgressBar.tsx
+│       ├── SectionHeader.tsx
+│       ├── SocialIconLink.tsx
+│       └── ThemeToggle.tsx
+│
+├── data/
+│   ├── education.ts
+│   ├── knowledge.ts
+│   ├── profile.ts
+│   ├── projects.ts
+│   ├── skills.ts
+│   └── socialLinks.ts
+│
+└── types/
+    └── portfolio.ts
+```
+
+## Componentes reutilizables
+
+El proyecto utiliza componentes reutilizables para mantener una estructura clara y organizada. Algunos de los componentes principales son:
+
+- `Button`: botón reutilizable para acciones y enlaces.
+- `Modal`: componente reutilizable para mostrar información detallada.
+- `ProgressBar`: barra de progreso para idiomas y lenguajes de programación.
+- `SectionHeader`: encabezado reutilizable para las secciones principales.
+- `KnowledgeCard`: tarjeta para mostrar conocimientos.
+- `EducationCard`: tarjeta para mostrar formación académica.
+- `ProjectCard`: tarjeta para mostrar proyectos del portafolio.
+- `SocialIconLink`: enlace visual para redes sociales.
+- `ThemeToggle`: botón para alternar entre modo claro y modo oscuro.
+
+## Instalación y ejecución
+
+Para ejecutar el proyecto de forma local, primero se debe clonar el repositorio:
+
+```bash
+git clone <URL_DEL_REPOSITORIO>
+```
+
+Luego, ingresar a la carpeta del proyecto:
+
+```bash
+cd brayan-gomez-portafolio
+```
+
+Instalar las dependencias:
+
+```bash
+npm install
+```
+
+Ejecutar el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abrir el proyecto en el navegador:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```txt
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Comandos disponibles
 
-## Learn More
+Ejecutar el proyecto en modo desarrollo:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Generar la versión de producción:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm run build
+```
 
-## Deploy on Vercel
+Ejecutar la versión de producción:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+npm run start
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Revisar errores de código con ESLint:
+
+```bash
+npm run lint
+```
+
+## Despliegue
+
+El proyecto debe ser desplegado en Vercel.
+
+Enlace del despliegue:
+
+```txt
+<URL_DEL_DESPLIEGUE_EN_VERCEL>
+```
+
+## Información del autor
+
+**Nombre:** Brayan Stiven Gómez Villa  
+**Rol:** Desarrollador de software | Ciencia de datos e IA  
+**Ciudad:** Medellín, Antioquia  
+**GitHub:** https://github.com/brayan6264  
+**LinkedIn:** https://linkedin.com/in/brayan-gomez-backend  
+**Instagram:** https://www.instagram.com/brayang6264  
+
+## Notas del desarrollo
+
+Durante el desarrollo se priorizó una estructura simple, clara y basada en componentes. El proyecto evita una arquitectura innecesariamente compleja, pero mantiene una separación organizada entre datos, tipos, componentes visuales, secciones y layout principal.
+
+También se cuidó la responsividad, la reutilización de componentes, la ortografía de los textos visibles y la documentación interna en las partes del código donde existe lógica relevante, como el carrusel, los modales, el modo oscuro y los paneles laterales móviles.
+
+## Estado del proyecto
+
+Proyecto desarrollado como entrega académica para Ingeniería Web.

@@ -11,7 +11,7 @@ export function Footer() {
                     </p>
 
                     <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
-                        Portafolio profesional desarrollado con Next.js, TypeScript y TailwindCSS.
+                        Portafolio desarrollado con Next.js, TypeScript y TailwindCSS por Brayan Gomez.
                     </p>
                 </div>
 
