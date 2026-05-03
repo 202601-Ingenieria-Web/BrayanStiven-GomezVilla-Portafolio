@@ -131,7 +131,7 @@ export function MobileSidebarController() {
             const deltaX = currentX - startXRef.current;
             const deltaY = currentY - startYRef.current;
 
-            // Vertical gestures are ignored so the user can still scroll inside long mobile sidebars.
+            // Vertical gestures must remain free so the user can scroll the sidebar content on mobile.
             if (!gestureDirectionRef.current) {
                 const absoluteDeltaX = Math.abs(deltaX);
                 const absoluteDeltaY = Math.abs(deltaY);
@@ -199,13 +199,13 @@ export function MobileSidebarController() {
     const leftSidebarStyle: CSSProperties = {
         transform: `translateX(${activeSidebar === "left" ? (openProgress - 1) * 100 : -100}%)`,
         transition: isDragging ? "none" : `transform ${TRANSITION_DURATION}ms ease-out`,
-        touchAction: "none",
+        touchAction: "pan-y",
     };
 
     const rightSidebarStyle: CSSProperties = {
         transform: `translateX(${activeSidebar === "right" ? (1 - openProgress) * 100 : 100}%)`,
         transition: isDragging ? "none" : `transform ${TRANSITION_DURATION}ms ease-out`,
-        touchAction: "none",
+        touchAction: "pan-y",
     };
 
     const overlayStyle: CSSProperties = {
@@ -225,7 +225,7 @@ export function MobileSidebarController() {
                 <PanelRightOpen size={18} />
             </button>
 
-            {/* The desktop sidebars are reused here as mobile panels controlled by touch gestures. */}
+            {/* The desktop sidebars are reused here as mobile panels controlled by horizontal touch gestures. */}
             <LeftSidebar mode="mobile" style={leftSidebarStyle} />
             <RightSidebar mode="mobile" style={rightSidebarStyle} />
         </>
