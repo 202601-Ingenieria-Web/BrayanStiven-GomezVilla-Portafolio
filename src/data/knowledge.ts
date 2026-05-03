@@ -5,7 +5,7 @@ export const knowledgeItems: KnowledgeItem[] = [
     {
         title: "Desarrollo web",
         description:
-            "Construcción de interfaces y aplicaciones web usando tecnologías modernas como React, Next.js, TypeScript y TailwindCSS.",
+            "Construcción de interfaces y aplicaciones web con tecnologías modernas como React, Next.js, TypeScript y Tailwind CSS.",
         icon: Code2,
     },
     {
@@ -23,13 +23,13 @@ export const knowledgeItems: KnowledgeItem[] = [
     {
         title: "Inteligencia artificial",
         description:
-            "Aplicación de modelos de lenguaje, sistemas RAG y herramientas como Langflow, DataStax Astra y OpenAI en soluciones funcionales.",
+            "Aplicación de modelos de lenguaje, sistemas RAG y herramientas como Langflow, DataStax Astra DB y OpenAI en soluciones funcionales.",
         icon: BrainCircuit,
     },
     {
         title: "Ciencia de datos",
         description:
-            "Análisis, limpieza y procesamiento de datos usando Python, Pandas, Scikit-learn y herramientas orientadas a modelos predictivos.",
+            "Análisis, limpieza y procesamiento de datos con Python, Pandas, Scikit-learn y herramientas orientadas a modelos predictivos.",
         icon: BarChart3,
     },
     {

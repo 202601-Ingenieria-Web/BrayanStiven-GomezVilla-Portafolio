@@ -15,7 +15,7 @@ export const educationItems: EducationItem[] = [
         role: "Estudiante",
         title: "Bootcamp en Ciencia de Datos",
         description:
-            "Proceso de formación práctica en análisis de datos, limpieza de información, modelos predictivos, Python, machine learning y visualización de resultados.",
+            "Formación práctica en análisis de datos, limpieza de información, modelos predictivos, Python, aprendizaje automático y visualización de resultados.",
     },
     {
         institution: "Institución Educativa Escuela Normal Superior Pedro Justo Berrío",

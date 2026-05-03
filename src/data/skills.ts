@@ -8,7 +8,7 @@ export const languageSkills: SkillItem[] = [
     },
     {
         name: "Inglés",
-        percentage: 65,
+        percentage: 50,
         category: "language",
     },
 ];
@@ -21,7 +21,7 @@ export const programmingSkills: SkillItem[] = [
     },
     {
         name: "Java",
-        percentage: 75,
+        percentage: 80,
         category: "programming",
     },
     {
@@ -31,6 +31,16 @@ export const programmingSkills: SkillItem[] = [
     },
     {
         name: "JavaScript",
+        percentage: 70,
+        category: "programming",
+    },
+    {
+        name: "Flutter",
+        percentage: 60,
+        category: "programming",
+    },
+    {
+        name: "React",
         percentage: 70,
         category: "programming",
     },
@@ -46,7 +56,7 @@ export const programmingSkills: SkillItem[] = [
     },
     {
         name: "Kotlin",
-        percentage: 60,
+        percentage: 70,
         category: "programming",
     },
 ];
@@ -54,6 +64,10 @@ export const programmingSkills: SkillItem[] = [
 export const extraSkills: SkillItem[] = [
     {
         name: "Desarrollo backend",
+        category: "extra",
+    },
+    {
+        name: "Desarrollo frontend",
         category: "extra",
     },
     {

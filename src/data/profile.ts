@@ -3,11 +3,11 @@ import type { Profile } from "@/types/portfolio";
 
 export const profile: Profile = {
     fullName: "Brayan Stiven Gómez Villa",
-    title: "Desarrollador de software",
+    title: "Desarrollador de software | Ciencia de datos e IA",
     shortDescription:
         "Ingeniero de sistemas en formación con experiencia en desarrollo de software, ciencia de datos, inteligencia artificial y construcción de soluciones web.",
     detailedDescription:
-        "Soy científico de datos, desarrollador de software e ingeniero de sistemas en formación de la Universidad de Antioquia. Tengo experiencia en desarrollo backend, análisis de datos, construcción de APIs, bases de datos, soluciones con inteligencia artificial y sistemas web. He trabajado como auxiliar de programación en la OAI de la Universidad de Antioquia y actualmente me desempeño como desarrollador en Innovati Software. Me interesa crear soluciones funcionales, claras y bien estructuradas, combinando buenas prácticas de desarrollo con pensamiento analítico y enfoque en el usuario.",
+        "Soy desarrollador de software, científico de datos e ingeniero de sistemas en formación de la Universidad de Antioquia. Tengo experiencia en desarrollo backend, análisis de datos, construcción de APIs, bases de datos, soluciones con inteligencia artificial y sistemas web. He trabajado como auxiliar de programación en la OAI de la Universidad de Antioquia y actualmente me desempeño como desarrollador en Innovati Software. Me interesa crear soluciones funcionales, claras y bien estructuradas, combinando buenas prácticas de desarrollo con pensamiento analítico y enfoque en el usuario.",
     city: "Medellín, Antioquia",
     phone: "+57 322 674 7533",
     email: "brayan6264@gmail.com",
